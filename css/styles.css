@@ -5,6 +5,10 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Quattrocento', serif;
 font-family: 'Sriracha', cursive; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .site_header {
 
 }
@@ -30,5 +34,27 @@ font-family: 'Sriracha', cursive; */
 }
 
 .facebook {
+
+}
+
+.presentation {
+
+
+}
+
+.background_kiwi {
+
+
+}
+
+.other-product {
+
+}
+
+.strawberry-delight {
+
+}
+
+.coffee {
   
 }
