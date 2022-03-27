@@ -15,8 +15,18 @@ body {
 
 }
 
+main {
+  color: black;
+}
+
 header {
   background-image: url("../img/fruits-jaunes.webp");
+}
+
+.title-case {
+  background-color: #ffffffe5;
+  padding: 15px 38px;
+  font-size: 17px;
 }
 
 .site_header {
@@ -28,6 +38,7 @@ header {
   padding-top: 28px ;
   padding-left: 30px;
   padding-right: 30px;
+  background-color: #ffffffe5;
 }
 
 .link_1 a {
@@ -36,6 +47,15 @@ header {
   font-size: 18px;
   background-color: #7DB96F;
   text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.link_1 {
+  margin-bottom: 35px;
+  margin-top: 45px;
 }
 
 .link_2 a {
@@ -44,21 +64,29 @@ header {
   font-size: 18px  ;
   background-color: white;
   text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 .description h1 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 24px;
+  text-align: center;
+  margin-top: 65px;
 }
 
 .description p {
   font-family: 'Quattrocento', serif;
   font-size: 16px;
   text-align: center;
+  margin: 20px 38px;
 }
 
 .description img {
-
+  margin-bottom: 65px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .background_article {
@@ -70,6 +98,10 @@ header {
   text-align: center;
   font-size: 22px;
   color: white;
+  padding-bottom: 4px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 h3 {
@@ -77,6 +109,7 @@ h3 {
   font-family: 'Sriracha', cursive;
   color: black;
   text-align: left; 
+
 }
 
 article img {
@@ -85,14 +118,12 @@ article img {
 
 article {
   box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.9);
-}
+  border-radius: 30px;
+  margin: 25px;
+  padding: 15px;
+  justify-content: space-between;
 
-article p {
-  font-family: 'Quattrocento', serif;
-  color: black;
-  opacity: 65%;
-  font-size: 16px;
-} 
+}
 
 article a {
   font-family: 'Maven Pro', sans-serif;
@@ -101,8 +132,24 @@ article a {
   font-size: 14px;
 }
 
-.container-contact {
+.banana-juice {
+  background-color: #FCF7D6;
+}
 
+.kiwi-sirop {
+  background-color: #D0F1AE;
+}
+
+.coffee-cream {
+  background-color: #CDC4B0;
+}
+
+.strawberry-delight {
+  background-color: #E2A2B1;
+}
+
+.container-contact a {
+ color: white;
 }
 
 footer h2 {
@@ -114,26 +161,35 @@ footer h2 {
 
 .mail {
   font-family: 'Maven Pro', sans-serif;
-  color: white;
   font-size: 17px;
   background-color: #7DB96F;
   text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
 }
 
 .instagram {
   font-family: 'Maven Pro', sans-serif;
-  color: white;
   font-size: 17px;
   background-color: #7DB96F;
   text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
 }
 
 .facebook {
   font-family: 'Maven Pro', sans-serif;
-  color: white;
   font-size: 17px;
   background-color: #7DB96F;
   text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
 }
 
 footer p {
@@ -141,10 +197,13 @@ footer p {
   color: #7DB96F;
   font-size: 10px;
   text-align: center;
+  margin: 20px 75px;
 }
 
 footer img {
-
+  margin-bottom: 65px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 
@@ -248,4 +307,15 @@ footer img {
 .strawberry-delight .coffee {
   display: flex;
   flex-direction: row;
+}
+
+article p {
+  font-family: 'Quattrocento', serif;
+  color: black;
+  opacity: 65%;
+  font-size: 16px;
+} 
+
+.background_article article p{
+  color:black;
 }
