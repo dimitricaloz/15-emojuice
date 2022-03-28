@@ -11,8 +11,7 @@ html {
 
 body {
   margin: auto;
-  max width: 380px;
-
+  max-width: 380px;
 }
 
 main {
@@ -21,6 +20,7 @@ main {
 
 header {
   background-image: url("../img/fruits-jaunes.webp");
+  background-size: cover;
 }
 
 .title-case {
@@ -91,6 +91,7 @@ header {
 
 .background_article {
   background-color: #7DB96F;
+  padding-bottom: 20px;
 }
 
 .background_article h1 {
@@ -109,7 +110,7 @@ h3 {
   font-family: 'Sriracha', cursive;
   color: black;
   text-align: left; 
-
+  padding-left: 20px;
 }
 
 article img {
@@ -120,9 +121,9 @@ article {
   box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.9);
   border-radius: 30px;
   margin: 25px;
-  padding: 15px;
+  padding: 25px;
+  padding-top: 10px;
   justify-content: space-between;
-
 }
 
 article a {
@@ -130,6 +131,7 @@ article a {
   color: black;
   font-weight: bold;
   font-size: 14px;
+  padding-left: 20px;
 }
 
 .banana-juice {
@@ -150,6 +152,12 @@ article a {
 
 .container-contact a {
  color: white;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer h2 {
@@ -177,7 +185,7 @@ footer h2 {
   text-align: center;
   padding: 10px;
   border-radius: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
@@ -198,25 +206,15 @@ footer p {
   font-size: 10px;
   text-align: center;
   margin: 20px 75px;
+  margin-top: 40px;
 }
 
 footer img {
-  margin-bottom: 65px;
+  margin-bottom: 25px;
   margin-left: 40px;
   margin-right: 40px;
+  padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .presentation {
   background-color: #D0F1AE;
@@ -225,6 +223,7 @@ footer img {
 .presentation h3 {
   text-align: center;
   font-size: 26px;
+  padding-top: 30px;
 }
 
 .presentation p {
@@ -235,15 +234,19 @@ footer img {
 }
 
 .background_kiwi {
-  background-color: white;
-  padding: 60px;
-  margin: 30px 50px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.23);
+  text-align: center;
 }
 
 .background_kiwi img {
   width: 100px;
+  border-radius: 50%;
+  border: 25px white solid;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin-bottom: 30px;
+}
+
+.kiwi-img {
+  width: 250px;
 }
 
 .background_article h2 {
@@ -258,12 +261,12 @@ footer img {
   font-family: 'Quattrocento', serif;
   color: white;
   font-size: 16px;
-  padding-left: 40px;
   padding-right: 40px;
+  padding-left: 40px;
 }
 
 .background_article img {
-  width: 130px;
+  width: 100px;
   padding-left: 40px;
 }
 
@@ -274,6 +277,7 @@ footer img {
   text-align: left;
   font-weight: bold;
   padding-left: 40px;
+  padding-right: 40px;
 }
 
 .background_article ul {
@@ -281,7 +285,7 @@ footer img {
   color: white;
   font-size: 15px;
   padding-left: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .other-product {
@@ -290,6 +294,12 @@ footer img {
 
 .other-product img {
   width: 55px;
+}
+
+.other-product .strawberry-delight {
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
 }
 
 .other-product a {
@@ -309,13 +319,7 @@ footer img {
   font-size: 24px;
   text-align: center;
   color: black;
-}
-
-.strawberry-delight {
-  background-color: #E2A2B1;
-  border-radius: 15px;
-  margin: 15px;
-  padding: 15px;
+  padding-top: 30px;
 }
 
 .coffee {
@@ -337,6 +341,11 @@ article p {
   font-size: 16px;
 } 
 
-.background_article article p{
+.background_article article p {
   color:black;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
 }
